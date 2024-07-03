@@ -53,25 +53,6 @@ console.log("Caja Final: " + cajaFinal);
 //
 //en este espacio quiero hacer un buscador en donde el empleado o el jefe
 //pueda buscar el corte de carne y le devuelva el precio del mismo.
-// function buscarPrecioDelCorte(corte) {
-//   let precio;
-//   let nombreCorte = prompt("ingrese el nombre del corte de carne ");
-//   switch (nombreCorte) {
-//     case "asado":
-//       precio = 5000;
-//       break;
-//     default:
-//       precio = "corte no encontrado";
-//   }
-//   return precio;
-// }
-// if (precio !== "corte no encontrado") {
-//   alert("El precio del " + nombreCorte + "es:$" + precio);
-// } else {
-//   alert("corte no encontrado");
-// }
-
-// console.log(buscarPrecioDelCorte("asado"));
 function buscarPrecio() {
   let nombreCorte = prompt("ingrese nombre del corte");
   let precio;

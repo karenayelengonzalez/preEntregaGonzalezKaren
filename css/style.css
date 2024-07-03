@@ -15,6 +15,7 @@ header {
   justify-content: center;
   text-decoration: underline;
 }
+
 @media all and (max-width: 425px) {
   header {
     font-size: xx-large;
