@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: red;
+  color: white;
+  font-size: 3.75rem;
+  justify-content: center;
+  padding: 9.375rem;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+@media all and (max-width: 425px) {
+  header {
+    font-size: xx-large;
+  }
+}
+@media all and (max-width: 320px) {
+  header {
+    font-size: 2.5rem;
+    padding: 3.125rem;
+  }
+  .titulo {
+    font-size: x-large;
+  }
+}
